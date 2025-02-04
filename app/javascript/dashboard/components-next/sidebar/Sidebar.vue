@@ -248,12 +248,12 @@ const menuItems = computed(() => {
           showOnlyOnCloud: true,
           to: accountScopedRoute('captain_assistants_index'),
         },
-        {
-          name: 'Documents',
-          label: t('SIDEBAR.CAPTAIN_DOCUMENTS'),
-          showOnlyOnCloud: true,
-          to: accountScopedRoute('captain_documents_index'),
-        },
+        // {
+        //   name: 'Documents',
+        //   label: t('SIDEBAR.CAPTAIN_DOCUMENTS'),
+        //   showOnlyOnCloud: true,
+        //   to: accountScopedRoute('captain_documents_index'),
+        // },
         {
           name: 'Responses',
           label: t('SIDEBAR.CAPTAIN_RESPONSES'),
